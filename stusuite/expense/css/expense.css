@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+    
+}
+header{
+	background-color: white;
+	-webkit-box-shadow: 0 8px 6px -6px #ccc;
+	-moz-box-shadow: 0 8px 6px -6px #ccc;
+	box-shadow: 0 8px 6px -6px #ccc;
+	position: fixed;
+	width: 100%;
+}
+.d-flex{
+    display: flex;
+    }
+.justify-between{
+    justify-content: space-between;
+}
+nav ul{
+	list-style-type: none;
+    padding: 10px;
+    margin-top: 10px;
+  
+}
+nav ul li{
+	display: inline-block;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 30px;
+	transition: 1s all;
+    font-family: monospace;
+    font-size: 2em;
+	
+} 
+nav ul li a.active{
+	color: dodgerblue;	
+} 
+nav ul li a:hover{
+	color: dodgerblue;
+	transition: 1s all;
+} 
+nav ul li a i{
+	margin-right: 25px;
+}
+div.brand{
+    margin: 0px;
+	padding: 0px;
+}
+div.brand a{
+    position: relative;
+    left: 10px;
+    color: dodgerblue;
+    font-family: monospace;
+   }
+div.brand img{
+    float: left;
+  width: 150px;
+  height: 150px;
+    margin: 0px;
+	padding: 0px;
+}
+#topic{
+     color: dodgerblue;
+     font-family: cursive;
+    font-weight: 400;
+     margin-left: 100px;
+    margin-top: 0px;
+    padding: 0px;
+   }
+section#start{
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/expense.jpg");
+    background-repeat: no-repeat;
+    color:#fff;
+    background-size: cover;
+    overflow: hidden;
+   	background-position: center;
+	padding-top: 25vh;
+	padding-left: 20px;
+	padding-bottom: 20vh
+}
+
+section#start h1{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    font-family: cursive;
+    margin-top: 0px;
+}
+section#start h2{
+     color: lawngreen;
+    font-size: 2em;
+    font-family: cursive;
+}
+section#start input{
+    border: solid black;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 5px;
+    padding: 5px;
+     width: 20%;
+     font-size: 1em;
+    font-family: cursive; 
+}
+section#start button{
+    cursor: pointer;
+    background-color: red;
+    margin-left: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid black;
+    font-size: 1em;
+    font-family: cursive; 
+    }
+section#start button:hover{
+    background-color: aqua;
+    
+}
+#addedExpenses{
+    color: lawngreen;
+    font-size: 2em;
+    font-family: cursive;
+}
+footer{
+	background-color: dodgerblue;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+    font-size: 1em;
+    font-family: sans-serif;
+}

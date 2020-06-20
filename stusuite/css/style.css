@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+	padding: 0px;
+	font-family: monospace;
+    
+}
+header{
+	background-color: white;
+	-webkit-box-shadow: 0 8px 6px -6px #ccc;
+	-moz-box-shadow: 0 8px 6px -6px #ccc;
+	box-shadow: 0 8px 6px -6px #ccc;
+	position: fixed;
+	width: 100%;
+}
+.d-flex{
+    display: flex;
+    }
+.justify-between{
+    justify-content: space-between;
+}
+nav ul{
+	list-style-type: none;
+    padding: 10px;
+    margin-top: 10px;
+  
+}
+nav ul li{
+	display: inline-block;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 30px;
+	transition: 1s all;
+    font-family: monospace;
+    font-size: 2em;
+	
+} 
+nav ul li a.active{
+	color: dodgerblue;	
+} 
+nav ul li a:hover{
+	color: dodgerblue;
+	transition: 1s all;
+} 
+nav ul li a i{
+	margin-right: 25px;
+}
+div.brand{
+    margin: 0px;
+	padding: 0px;
+}
+div.brand a{
+    position: relative;
+    left: 10px;
+    color: dodgerblue;
+    font-family: monospace;
+   }
+div.brand img{
+    float: left;
+  width: 150px;
+  height: 150px;
+    margin: 0px;
+	padding: 0px;
+}
+#topic{
+     color: dodgerblue;
+     font-family: cursive;
+    font-weight: 400;
+     margin-left: 100px;
+    margin-top: 0px;
+    padding: 0px;
+   }
+
+section#start{
+    background-image: url("../bg-image/lap.jpg");
+    background-repeat: no-repeat;
+    color:#fff;
+    background-size: cover;
+    overflow: hidden;
+   	background-position: center;
+	padding-top: 30vh;
+	padding-left: 20px;
+	padding-bottom: 20vh;
+}
+#expense{
+    
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 200px;
+     
+}
+ 
+#expense a{
+    font-size: 3em;
+    font-family: monospace;
+    color: green;
+    background-color: white;
+   margin-top: auto;
+    }
+
+#expense a:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+#todo{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+     }
+ 
+#todo a{
+    font-size: 3em;
+    font-family: monospace;
+    color: green;
+    background-color: white;
+    padding: 5px;
+    margin-top: 0px;7777777
+   }
+
+#todo a:hover{
+    cursor: pointer;
+    color: blue;
+    }
+#book{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+ 
+#book a{
+    font-size: 3em;
+    font-family: monospace;
+    color: green;
+    background-color: white;
+    }
+
+#book a:hover{
+    cursor: pointer;
+    color: blue;
+}
+footer{
+	background-color: dodgerblue;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+    font-size: 1em;
+    font-family: sans-serif;
+}
